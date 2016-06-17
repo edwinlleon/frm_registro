@@ -1,0 +1,35 @@
+body
+{
+  margin: 5px;
+  padding: 0px;
+}
+
+img
+{
+  border: 0px
+}
+
+#contenedor-general
+{
+  width: 100%;
+  height: 100%;
+  border: dashed 1px;
+}
+
+/*Este es el estilo que lleva el conjunto de divs o elementos cln la clase menú.*/
+.menu
+{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  /*border: dashed 1px;*/
+}
+
+#contenedor-texto-informativo
+{
+  position: absolute;;
+  border: dashed 1px;
+  top: 85%;
+  width: 100px;
+  height: 40px;
+}

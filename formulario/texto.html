@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<script src="minified/TweenMax.min.js"></script>
+    <script src="minified/EasePack.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<div id="contenedor">
+        <div id="formulario">
+
+            <div id="titulo">INICIAR SESIÓN</div> <!-- div donde esta guardado el titulo  -->
+                
+                    <form>
+
+                            <div id="contenido_cajas">  <!-- Este div contiene las dos cajas de texto -->
+                               
+                                <div id="img1"><img src="imagenes/users.png" width="40px"></div>
+
+                                
+
+                                <div id="texto1"><input type="text" class="caja" name=""  placeholder="documento"></div>
+
+                                <div id="texto2"><input type="text" class="caja" name="" placeholder="nombre"></div>
+
+                                <div id="texto3"><input type="text" class="caja" name="" placeholder="apellido"></div>
+
+                                <div id="texto4"><input type="text" class="caja" name="" placeholder="usuario"></div>
+
+                                <!-- <div id="img2"><img src="imagenes/loc.png" width="40px"></div>  -->
+                                
+                                <div id="texto5"><input type="password" class="caja" name="" placeholder="Contraseña"></div>
+                            </div>     
+
+                            <div  id="texto_boton"><center><button class="msg-basico-txt btn btn-info" type="button" >Iniciar</button></center></div>
+                        <!-- <input type="submit"  name="" value="INICIAR" class="boton"> -->
+                    </form>
+                
+        </div>
+
+           
+ <script>
+            
+            
+            window.onload = function()
+            {
+
+                console.log( "Esto está funcionando." );
+                
+                var texto1 = document.getElementById("texto1");
+                var img1 = document.getElementById("img1");
+                var img2 = document.getElementById("img2");
+                var texto_boton = document.getElementById("texto_boton");
+                var texto2 = document.getElementById("texto2");
+                var texto3 = document.getElementById("texto3");
+                var texto4 = document.getElementById("texto4");
+                var texto5 = document.getElementById("texto5");
+              
+
+                TweenLite.to(texto1, 2.5, { ease: Back.easeInOut.config(1.7), y: 0, top:"-20px" , left:"50px", opacity:"1.0"});
+
+                TweenLite.to(img1, 2.5, { ease: Back.easeInOut.config(1.7), y: 0, opacity:"1.0"});
+
+                // TweenLite.to(img2, 2.5, { ease: Back.easeInOut.config(1.7), y: 0, opacity:"1.0"});
+
+                TweenLite.to(texto2, 2.5, { ease: Power2.easeOut, y: 0, top:"40px" ,left:"50px", opacity:"1.0"  });
+
+                TweenLite.to(texto_boton, 2.5, { ease: Power3.easeOut, y: 0, top:"80px" ,left:"286px", opacity:"1.0" });
+
+                TweenLite.to(texto3, 2.5, { ease: Power3.easeOut, y: 0, top:"55px" ,left:"50px", opacity:"1.0" });
+
+                TweenLite.to(texto4, 2.5, { ease: Power3.easeOut, y: 0, top:"70px" ,left:"50px", opacity:"1.0" });
+                
+                TweenLite.to(texto5, 2.5, { ease: Power3.easeOut, y: 0, top:"85px" ,left:"50px", opacity:"1.0" });
+
+
+
+
+
+                
+
+                
+            };
+            function al_completar ()
+            {
+            	
+
+                    document.getElementById("logo2");
+            };
+            
+        </script>
+</div>
+
+</body>
+</html>

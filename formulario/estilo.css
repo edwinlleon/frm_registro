@@ -1,0 +1,205 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+
+}
+#contenedor{
+
+	width: 900px;
+			 	/*background-color: rgba(182, 157, 157, 0.2);*/
+			 	background-image: url('imagenes/IMG_4461.JPG');
+			 	background-repeat: no-repeat;
+ 				background-position: center;
+			 	margin: 0 auto;
+			 	height: 900px;
+			 	font-family: 
+}
+
+
+#texto1{
+	
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	/*border: double 1px;*/
+	opacity: 0.0;
+	
+
+}
+#texto2{
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	top: -10px;
+	opacity: 0.0;
+
+}
+
+#texto3{
+	
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	top: -100px;
+	opacity: 0.0;
+
+}
+#texto4{
+	
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	top: -100px;
+	opacity: 0.0;
+
+}
+
+#texto5{
+	
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	top: -100px;
+	opacity: 0.0;
+
+}
+#texto_boton{
+	position: relative;
+	border: double 2px;
+	width: 420px;
+	height: 50px;
+	font-size: 14px;
+	left: -10px;
+	opacity: 0.0;
+}
+.caja {	
+  border: 3px solid #DBE1EB;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  width: 400px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+
+			
+	  }
+.caja:hover
+{
+	-webkit-box-shadow: 6px 10px 37px -6px rgba(163,163,163,1);
+	-moz-box-shadow: 6px 10px 37px -6px rgba(163,163,163,1);
+	box-shadow: 6px 10px 37px -6px rgba(163,163,163,1);
+}
+
+#formulario{
+
+				position: relative;
+				width: 500px;
+				height: 600px;
+				top: 2em;
+				left: 13em;
+				background-color: rgb(242,237,209);
+				padding: 10px;
+			}
+.boton
+{
+    border:0px;
+	width: 80px;
+	height: 40px;
+	/*border-radius: 3px;	*/
+	background-color: rgb(105, 220, 126); 
+}
+.boton:hover
+{
+	background-color: rgba(105, 220, 126,0.5); 
+}
+#titulo
+{
+	position:relative;
+	float: left;
+	width: 400px;
+	height: 40px;
+	top:10px;
+	/*border: double 1px;*/
+	font-size: 30px;
+	
+}
+#contenido_cajas
+{
+	position: relative;
+	width: 500px;
+	height: 400px;
+	top:100px;
+	/*border: double 1px;*/
+	background-color: #FFFFFF;
+}
+#img1
+{
+	position: relative;
+	float: left;
+	right: 400px;
+	top: 25px;
+	opacity: 0.0;
+}
+#img2
+{
+	position: relative;
+	float: left;
+	right: 438px;
+	top: 85px;
+	opacity: 0.0;
+
+}
+.msg-basico-txt{
+	text-decoration:none; text-align:center; 
+	width: 120px; height: 40px;
+	-webkit-border-radius:12px;	-moz-border-radius:12px; border-radius: 12px; 
+	font:20px sans-serif; 	font-weight:bold; 
+	color:#000000; 	background-color:#72b62e; 
+	background-image: -moz-linear-gradient(top, #72b62e 0%, #ffffff 100%); 
+	background-image: -webkit-linear-gradient(top, #72b62e 0%, #ffffff 100%); 
+	background-image: -o-linear-gradient(top, #72b62e 0%, #ffffff 100%); 
+	background-image: -ms-linear-gradient(top, #72b62e 0% ,#ffffff 100%); 
+	background-image: linear-gradient(top, #72b62e 0% ,#ffffff 100%);   
+}
+
+.msg-basico-txt:hover{
+	width: 120px; height: 40px;
+	-webkit-border-radius:12px;		-moz-border-radius:12px;	 border-radius: 12px; 
+	font:20px sans-serif; 	font-weight:bold; 
+	color:#000000; 	background-color:#f4f6f7; 
+	background-image: -moz-linear-gradient(top, #f4f6f7 0%, #3e4d52 100%); 
+	background-image: -webkit-linear-gradient(top, #f4f6f7 0%, #3e4d52 100%); 
+	background-image: -o-linear-gradient(top, #f4f6f7 0%, #3e4d52 100%); 
+	background-image: -ms-linear-gradient(top, #f4f6f7 0% ,#3e4d52 100%); 
+	background-image: linear-gradient(top, #f4f6f7 0% ,#3e4d52 100%);   
+	opacity:0.56; 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=56); 	filter: alpha(opacity=56); 
+
+}
+
+.msg-basico-txt:active{
+	width: 120px; height: 40px;
+	-webkit-border-radius:12px;	-moz-border-radius:12px; 	border-radius: 12px; 
+	font:20px sans-serif; 	font-weight:bold; 
+	color:#f9fcfc; 	background-color:#000000; 
+	opacity:0.56; 	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=56); 	filter: alpha(opacity=56); 
+  
+}
